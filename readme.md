@@ -63,7 +63,8 @@ PROBANDO
 ***
 SEPARADOR
 * * *
-- IMÁGENES para añadir imágenes con ![] ![tenemos el alternativo en caso de que la imágen no se visible]() y si despues de ![] añadimos parentesis si veremos la imágen.
+- IMÁGENES para añadir imágenes sin enlace ![] ![tenemos el alternativo en caso de que la imágen no se visible]() y si despues de ![] añadimos parentesis si veremos la imágen.
 ![IMAGEN](image-17.png)
+- IMÁGENES para añadir imágenes con enlace igual que la anterior pero añadiendo ![a]()
 
 

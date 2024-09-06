@@ -68,15 +68,41 @@ GitHub y comprobando que los cambios se visualicen correctamente.
 - **IMÁGENES** para añadir imágenes con enlace igual que la anterior pero añadiendo ![a]()
 - **Tablas**
 Así se veria para añadir la siguiente tabla.
-|Header |Column 1 | Column 2 | Column 3  |
-|:--- |:---- |:----:| ----:|
-|1. Row| is | is | is  |
-|2. Row| left | nicely | right  |
-|3. Row| aligned | centered | aligned  |
+| Header | Column 1 | Column 2 | Column 3 |
+| :----- | :------- | :------: | -------: |
+| 1. Row | is       |    is    |       is |
+| 2. Row | left     |  nicely  |    right |
+| 3. Row | aligned  | centered |  aligned |
 
-|Header |Column 1 | Column 2 | Column 3  |
-|:--- |:---- |:----:| ----:|
-|1. Row| is | is | is  |
-|2. Row| left | nicely | right  |
-|3. Row| aligned | centered | aligned  |
+| Header | Column 1 | Column 2 | Column 3 |
+| :----- | :------- | :------: | -------: |
+| 1. Row | is       |    is    |       is |
+| 2. Row | left     |  nicely  |    right |
+| 3. Row | aligned  | centered |  aligned |
 
+## EJERCICIO 4 FAST FORWARD
+
+1. Crea un directorio llamado repo04
+- He utilizado el metodo remoto,es decir creando el **repo04** a través del github y ejecutando un ***git clone*** (*idrepositorio*).
+  ![alt text](image-18.png)
+![alt text](image-19.png)
+2. Añade un fichero readme.md vacío al repositorio local
+![alt text](image-23.png)
+3. Crea una rama con tu nombre y la fecha actual
+![alt text](image-21.png)
+4. Desde tu rama (**xavi06092024**) edita el fichero readme.md
+![alt text](image-22.png)
+5. Haz 3 commits desde nuestra rama (**xavi06092024**)
+6. En el siguiente orden realiza lo siguiente:
+   - 4.6.1 – Fusiona tu rama con master 
+![alt text](image-24.png)
+![alt text](image-25.png)
+    - 4.6.1 – Fusiona tu rama con master 
+![alt text](image-26.png)
+1. Elimina solamente la rama en local david02032022 ya que si eliminásemos la remota no veríamos la
+rama en remoto.
+![alt text](image-27.png)
+1. Visualiza el resultado tanto mediante el comando git log --all --oneline -decorate –graph, como
+desde el pluging de VSC
+![alt text](image-28.png)
+![alt text](image-29.png)

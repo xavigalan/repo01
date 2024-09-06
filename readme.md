@@ -135,3 +135,30 @@ desde el pluging de VSC
 ![alt text](image-39.png)
 8. Explica las diferencias entre un merge FF y un merge no FF
 * Al hacer un merge Fast Fosward directamente traspasamos los commits de la rama ***xavi06092024*** a la ***main***, a diferencia del No Fast Fosward continuamos manteniendo ambas ramas con sus commits tanto como la ***xavi06092024*** como la ***main*** podiendo tener un mejor historial de datos.  
+## EJERCICIO 6 GIT
+1. Haz un alias con la finalidad de que cuando escribamos el comando git log adog nos ejecute lo
+siguiente:
+* Vamos al directorio de nuestro usuario, accedemos al archivo .gitconfig y añadimos
+* [alias] 
+  * adog = log --all --decorate --oneline --graph
+---
+![alt text](image-41.png)
+![alt text](image-42.png)
+* y el otro metodo que podemos utilizar 
+
+  ***git config --global alias.adog "log --all --decorate --oneline --graph"***
+## Ejercicio de Git bash
+1. [Clona el repositorio](https://github.com/DavidBernalGonzalez/practicaGit.git)
+* Con esto clonamos tu repositorio.
+![alt text](image-43.png)
+2. Visualiza las distintas ramas que hay en el repositorio.
+![alt text](image-44.png)
+3. Dentro del repositorio hay una carpeta llamada practica01, la encontrarás en la rama “practica01”. Sitúate en rama "practica01" para ver la carpeta practica01.
+* En la imágen podemos observar en la parte izquierda la carpeta, para cambiar de branch git checkout practica01.
+![alt text](image-45.png)
+4. Sitúate en el directorio practica1 y edita los archivos a tu gusto. Una vez editados los ficheros, haz un git status para ver que ha pasado con los ficheros. Finalmente, haz un commit para subir los cambios al repositorio local
+* He generado cambios dentro de los archivos y commiteado.
+![alt text](image-46.png)
+![alt text](image-47.png)
+5. Crea una rama nueva, llámala practica1_GALANPEREZ_XAVI
+![alt text](image-48.png)

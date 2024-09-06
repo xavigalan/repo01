@@ -106,3 +106,32 @@ rama en remoto.
 desde el pluging de VSC
 ![alt text](image-28.png)
 ![alt text](image-29.png)
+## EJERCICIO 5 NO FAST FORWARD
+1. Crea un directorio llamado repo05,
+- He utilizado el metodo remoto,es decir creando el **repo05** a través del github y ejecutando un ***git clone*** (*idrepositorio*).
+![alt text](image-30.png)
+2. Crear fichero readme
+  - He creado el fichero readme
+![alt text](image-31.png)
+3. Crea el fichero readme.md
+□ 5.3 - Crea una rama con tu nombre y la fecha actual (por ejemplo en mi caso la rama
+□ se llamará ***xavi09062024***) y sitúate en dicha rama
+![alt text](image-32.png)
+4. Haz 3 commits en la rama (david02032022)
+   ![alt text](image-34.png)
+   ![alt text](image-33.png)
+5. En este caso, antes de hacer el merge sube ambas ramas al repositorio remoto. Verifica que se
+hayan subido correctamente. Lo hacemos así, ya que cuando realicemos el merge si nos equivocas
+podemos volver a clonar el repositorio sin necesidad de tener que volver a comenzar el ejercicio de 0.
+* Los pushs de cada rama
+![alt text](image-35.png)
+![alt text](image-36.png)
+6. Basándote en el ejemplo que hemos visto anteriormente, realiza un commit no fast-forward en el
+que mergearemos la rama ***xavi06092024*** con master.
+* Primeramente hacemos un **pull** de ***xavi06092024*** a ***main***, una vez hecho un ejecutamos el **merge** para juntar las brancas y finalmente un push. 
+![alt text](image-38.png)
+7. Visualiza el resultado tanto mediante el comando git log --all --oneline --decorate --graph, como
+desde el pluging de VSC
+![alt text](image-39.png)
+8. Explica las diferencias entre un merge FF y un merge no FF
+* Al hacer un merge Fast Fosward directamente traspasamos los commits de la rama ***xavi06092024*** a la ***main***, a diferencia del No Fast Fosward continuamos manteniendo ambas ramas con sus commits tanto como la ***xavi06092024*** como la ***main*** podiendo tener un mejor historial de datos.  

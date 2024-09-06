@@ -59,12 +59,24 @@ GitHub y comprobando que los cambios se visualicen correctamente.
 - Enlaces/Links [BUENOS DÍAS](https://www.bing.com/ck/a?!&&p=91e193f8d3157c08JmltdHM9MTcyNTQwODAwMCZpZ3VpZD0xZDMyZTM1NC1jMWNkLTZkYTgtMzdiYy1mMDljYzBjYjZjNmMmaW5zaWQ9NTUxNw&ptn=3&ver=2&hsh=3&fclid=1d32e354-c1cd-6da8-37bc-f09cc0cb6c6c&u=a1L2ltYWdlcy9zZWFyY2g_cT1idWVub3MrZCVjMyVhZGFzJmlkPUY2RTZDMDExNzRFMzE1NjQ0RTk4MDk0MzFCQzBCMDQ4RDg1Q0YzRDgmRk9STT1JUUZSQkE&ntb=1) con [] es el texto a mostrar y seguido de esto () el enlace del texto.
 - Separador de líneas con los siguientes signos *- en la parte inferior de la línea que separamos.
 
-PROBANDO 
+**PROBANDO **
 ***
-SEPARADOR
+**SEPARADOR**
 * * *
-- IMÁGENES para añadir imágenes sin enlace ![] ![tenemos el alternativo en caso de que la imágen no se visible]() y si despues de ![] añadimos parentesis si veremos la imágen.
+- **IMÁGENES** para añadir imágenes sin enlace ![] ![tenemos el alternativo en caso de que la imágen no se visible]() y si despues de ![] añadimos parentesis si veremos la imágen.
 ![IMAGEN](image-17.png)
-- IMÁGENES para añadir imágenes con enlace igual que la anterior pero añadiendo ![a]()
+- **IMÁGENES** para añadir imágenes con enlace igual que la anterior pero añadiendo ![a]()
+- **Tablas**
+Así se veria para añadir la siguiente tabla.
+|Header |Column 1 | Column 2 | Column 3  |
+|:--- |:---- |:----:| ----:|
+|1. Row| is | is | is  |
+|2. Row| left | nicely | right  |
+|3. Row| aligned | centered | aligned  |
 
+|Header |Column 1 | Column 2 | Column 3  |
+|:--- |:---- |:----:| ----:|
+|1. Row| is | is | is  |
+|2. Row| left | nicely | right  |
+|3. Row| aligned | centered | aligned  |
 

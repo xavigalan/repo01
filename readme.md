@@ -162,3 +162,38 @@ siguiente:
 ![alt text](image-47.png)
 5. Crea una rama nueva, llámala practica1_GALANPEREZ_XAVI
 ![alt text](image-48.png)
+6. Muévete a la rama que has creado (practica1_GALANPEREZ_XAVI)
+![alt text](image-49.png)
+7. En el directorio raíz, crea el fichero practica1_APELLIDOS_NOMBRE.txt y cualquier cosa en su interior. Y haz un commit de los cambios.
+![alt text](image-50.png)
+![alt text](image-51.png)
+8. ¡Nos hemos equivocado! Queremos que en el interior del fichero practica1_APELLIDOS_NOMBRE.txt tendremos que poner nuestro nombre y apellidos. Vuelve a hacer otro commit revirtiendo los cambios (haciendo un nuevo commit) y sube los cambios al repositorio remoto ¿Qué está pasando? ¿Cómo lo solucionarias? ¿Tienes los permisos para escribir en dicho repositorio? ¿Existe posibilidad de arreglarlo? TIP: Elimina el remote actual y añade el de un remote de un repositorio nuevo en tu cuenta ya así si que tendrás permisos para escribirlo
+* Tenemos el commit y seguidamente el push, pero nos salta un error porque no tenemos permisos del propietario del repositorio remoto para poder hacer cambios en el.
+![alt text](image-52.png)
+![alt text](image-54.png)
+* Si ejecutamos el comando git remote -v podemos ver quien es el propietario y debemos eliminar el remote actual.
+![alt text](image-55.png)
+* Aqui podemos comprobar que ya no hay remote
+![alt text](image-56.png)
+* Después para añadir un nuevo remote tenemos que crear un repositorio remoto nuevo a través del github y escribir git remote add origin **(Nombre del remoto)**, ya tenemos permisos para subir archivos.
+![alt text](image-57.png)
+* Push
+![alt text](image-58.png)
+9. Vuelve a la rama “practica1”.
+![alt text](image-59.png)
+10. Haz un merge de tu rama (practica1_GALANPEREZ_XAVI) con practica1
+![alt text](image-60.png)
+11. Añade dentro de la rama de tu carpeta todas los comandos que has utilizado. Puedes crear un documento por ejemplo de Word.
+  
+* git clone "remote"
+* git branch
+* git checkout "nombre rama"
+* git status
+* git add .
+* git commit -m "" - git commit -am ""
+* git branch "nuevarama"
+* git remote -v
+* git remote remove origin
+* git remote add "nombre del remote"
+* git push origin "nombre rama"
+* git merge "nombre de la branca"

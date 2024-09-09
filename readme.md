@@ -197,3 +197,55 @@ siguiente:
 * git remote add "nombre del remote"
 * git push origin "nombre rama"
 * git merge "nombre de la branca"
+## Ejercicios de resolución de conflictos
+1. Crea un repositorio llamado conflictos-git y añade un readme.md (puedes marcar la pestaña add readme.md cuando lo creas desde GitHub)
+* Generado a través de **GitHub**.
+![alt text](image-63.png)
+* Para crear el readme.md a través del **GitHub** 
+![alt text](image-61.png)
+![alt text](image-62.png)
+![alt text](image-64.png)
+3. Clona el repositorio remoto conflictos-git a tu dispositivo (git clone).
+* De esta manera lo clonamos
+![alt text](image-65.png)
+* Podemos observar que tenemos los cambios bajados del repositorio de **GitHub**.
+![alt text](image-66.png)
+4. Modifica desde GitHub, el repositorio poniendo tu nombre y la fecha de hoy en lugar del actual.
+* La modificación que voy a hacer.
+![alt text](image-67.png)
+![alt text](image-68.png)
+* Aqui muestro los commits
+![alt text](image-69.png)
+5. Ves al repositorio local y modifica el nombre por Jaimito Fernández y pon como fecha 22/22/2222
+* El readme.md en el dispositivo local
+![alt text](image-70.png)
+* Los siguientes cambios:
+![alt text](image-71.png)
+![alt text](image-72.png)
+6. Intenta hacer un push al repositorio remoto.
+
+Haciendo git add .
+![alt text](image-73.png)
+Commit
+![alt text](image-74.png)
+7. Haz un git pull y ves que Git no puede auto-resolver el conflicto. Por lo que nos deja la responsabilidad a nosotros como programadores:
+
+* Nos aparece los dos commits ya que tenemos diferentes archivos, con esto me refiero al interior del fichero del repositorio local pone algo distinto al repositorio remoto (**GitHub**) y debemos elegir con cual queremos quedarnos.
+![alt text](image-76.png)
+![alt text](image-77.png)
+git diff
+![alt text](image-78.png)
+8. Piensa en que versión quieres, es muy importante estar seguro de lo que
+queremos hacer para no tener dolores de cabeza y no darle a cualquier opción
+sin pensarlo. ¿Qué versión quiero? ¿Con que cambios me quiero quedar? Y
+finalmente, soluciona el conflicto
+* Elijo la versión incoming que es la del GitHub.
+![alt text](image-79.png)
+![alt text](image-80.png)
+## Ejercicios de resolución de conflictos Parte 2
+1. Basándote en el ejercicio anterior crea otro fichero (puedes utilizar el mismo) y
+tal y como hemos en el ejemplo anterior vamos a tener conflictos pero esta vez
+muchos más.
+* He generado un archivo de texto llamado conflicto.txt
+![alt text](image-81.png)
+![alt text](image-82.png)

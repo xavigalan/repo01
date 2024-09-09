@@ -249,3 +249,9 @@ muchos más.
 * He generado un archivo de texto llamado conflicto.txt
 ![alt text](image-81.png)
 ![alt text](image-82.png)
+* Por ejemplo:
+  * En el repositorio remoto, puedes cambiar todas las letras a por una @.
+  ![alt text](image-83.png)
+  * En el repositorio local, puedes cambiar todas las letras e por €.
+  ![alt text](image-84.png)
+* Haz que se generen conflictos compáralos analiza que es lo que quieres. En muchas ocasiones necesitaras incluso sentarte con otro compañero para ver conflicto a conflicto que dejáis,etc.

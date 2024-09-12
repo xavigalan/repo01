@@ -254,4 +254,9 @@ muchos más.
   ![alt text](image-83.png)
   * En el repositorio local, puedes cambiar todas las letras e por €.
   ![alt text](image-84.png)
-* Haz que se generen conflictos compáralos analiza que es lo que quieres. En muchas ocasiones necesitaras incluso sentarte con otro compañero para ver conflicto a conflicto que dejáis,etc.
+Haz que se generen conflictos compáralos analiza que es lo que quieres. En muchas ocasiones necesitaras incluso sentarte con otro compañero para ver conflicto a conflicto que dejáis,etc.
+* Pues al hacer un pull del remoto al local tenemos diferente contenido dentro del archivo nos aparece esto.
+![alt text](image-85.png)
+* Yo en mi caso escogeré las 2 juntas que es **Accept Incoming Change**, que son las @.
+![alt text](image-86.png)
+![alt text](image-87.png)
